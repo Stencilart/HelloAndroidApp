@@ -1,4 +1,5 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">My Application</string>
-    <string name="hello_android">Hello Android!</string>
+    <string name="hello_android" tools:ignore="DuplicateDefinition">Hello Android!</string>
+    <string name="hello_android" tools:ignore="DuplicateDefinition">Hello Android!</string>
 </resources>
